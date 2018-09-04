@@ -1,7 +1,4 @@
-function bouncer(arr) {
-  const result = arr.filter(Boolean)
-  return result;
-}
+const bouncer = (arr) => arr.filter(Boolean);
 
-bouncer([true, null, 0, NaN, undefined, ""]); // true
+bouncer([true, null, 0, NaN, undefined, '']); // true
 // bouncer([1, null, NaN, 2, undefined]); // 1, 2
